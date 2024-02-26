@@ -21,3 +21,5 @@ git branch -d ****删除分支
 
 git remote add 地址名+url  绑定github远端库地址
 git remote remove 地址名 删除绑定
+git push 地址名 master:分支名 向远程仓库推送文件
+git pull 地址名 master:分支名  将本地文件更新
