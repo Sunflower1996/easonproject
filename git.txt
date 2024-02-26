@@ -12,7 +12,7 @@ git reset --soft id     回退指定版本到暂存区
 git reset  导致HEAD指针前移，指针后的历史记录会全部回退
 git revert 结果和git reset 一致，但是HEAD指针后移并产生一条新的记录，不会导致历史记录丢失
 
-git branch 查看分支
+git branch -a查看分支
 git branch **** 创建分支
 git checkout ****切换分支
 git merge ****合并分支
