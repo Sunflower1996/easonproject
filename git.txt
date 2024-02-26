@@ -15,3 +15,5 @@ git revert 结果和git reset 一致，但是HEAD指针后移并产生一条新�
 git branch 查看分支
 git branch **** 创建分支
 git checkout ****切换分支
+git merge ****合并分支
+git branch -d ****删除分支
