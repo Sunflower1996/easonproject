@@ -23,3 +23,4 @@ git remote add 地址名+url  绑定github远端库地址
 git remote remove 地址名 删除绑定
 git push 地址名 master:分支名 向远程仓库推送文件
 git pull 地址名 master:分支名  将本地文件更新
+git push -u  地址名 master:分支名 （加了-u以后可以把地址设为默认，之后可以直接 git push 或者 git pull）
