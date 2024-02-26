@@ -1,0 +1,13 @@
+
+git
+git add all //gid add .   添加到历史区
+git status 查看暂存区状态
+git commit -m "注释"     添加到历史区
+
+git reset --hard HEAD^    回退到上一个版本到工作区
+git reset --hard id        回退指定版本到工作区
+git reset --soft HEAD^  回退上一个版本到暂存区
+git reset --soft id     回退指定版本到暂存区
+
+git reset  导致HEAD指针前移，指针后的历史记录会全部回退
+git revert 结果和git reset 一致，但是HEAD指针后移并产生一条新的记录，不会导致历史记录丢失

@@ -26,5 +26,3 @@ pm2 attach id 转到
 gm.uXls('activity', 2008, 'TimeRange',[['2024.01.31','2024.02.02']] )
 
 
-git
-git add all //gid add .
