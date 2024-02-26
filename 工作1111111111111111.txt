@@ -1,0 +1,30 @@
+tmux a
+Ctrl+A 4
+
+p1:devLP123
+p2:QD123dev
+
+rootP:Root_123
+
+
+网页平台账号
+admin  0dEimF    所有权限
+admin1  vnL24j    封号发邮件发公告
+admin2 GcE546hA 查询
+
+热更新流程
+1，WinSCP 上传编译文件到box0
+2，putty 转到bash
+3，putty, sever/box 同步到box1
+4，box1同步到其他
+5,网页平台 服务器cmd执行热更新指令
+
+
+pm2 list 找到服务器对应id
+pm2 attach id 转到
+
+gm.uXls('activity', 2008, 'TimeRange',[['2024.01.31','2024.02.02']] )
+
+
+git
+git add all //gid add .
